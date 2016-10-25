@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 25px;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+h1, h5 {
+  color: white;
+  text-align: center;
+}
+
+h4, h5 {
+  text-transform: uppercase;
+}
+
+p {
+  color: #5e5e5e;
+}
+
+h5.trans {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+h5 {
+  font-size: 20px;
+  font-weight:100;
+}
+
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #ccc;
+  width: 100%;
+}
+
+tr {
+  border: .25px solid #5e5e5e;
+  height: 40px;
+}
+
+footer {
+  background-color: black;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.hero {
+  background: url(../images/herobg.jpeg) no-repeat left top;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.herotext {
+  font-size: 25px;
+  text-align: center;
+  padding: 150px;
+}
+
+.content{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.plans {
+  margin: 1%;
+  float: left;
+  width: 31.33%;
+}
+
+.color1 {
+  background-color: #519251;
+  padding: 25px;
+}
+
+.color2 {
+  background-color: #2c4985;
+  padding: 25px;
+}
+
+.color3 {
+  background-color: black;
+  padding: 25px;
+}
+
+.price {
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 5px;
+}
+
+.button {
+  height: 70px;
+  background-color: white;
+}
+
+a.button {
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: .25px solid black;
+  border-radius: 20px;
+}

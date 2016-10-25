@@ -63,9 +63,8 @@ br {
 footer {
   clear: both;
   background-color: black;
-  height: 40px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .hero {
@@ -79,6 +78,7 @@ footer {
   font-size: 25px;
   text-align: center;
   padding: 150px;
+  font-weight: 100;
 }
 
 .content{
@@ -135,4 +135,17 @@ a.button {
   padding: 1.5%;
   float: left;
   width: 47%;
+}
+
+@media (min-width: 0px) and (max-width: 776px) {
+  .plans {
+    clear: both;
+    float: none;
+    width: 98%;
+  }
+  .secondbox {
+    clear: both;
+    float: none;
+    width: 97%;
+  }
 }

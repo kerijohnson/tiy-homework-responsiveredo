@@ -56,7 +56,12 @@ tr {
   height: 40px;
 }
 
+br {
+  clear: both;
+}
+
 footer {
+  clear: both;
   background-color: black;
   height: 40px;
   text-align: center;
@@ -120,4 +125,14 @@ a.button {
   padding-right: 10px;
   border: .25px solid black;
   border-radius: 20px;
+}
+
+.secondcontent {
+  clear: both;
+}
+
+.secondbox {
+  padding: 1.5%;
+  float: left;
+  width: 47%;
 }
